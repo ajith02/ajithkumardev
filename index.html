@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ajith Kumar | Front End Developer</title>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	
+	<!-- Fontawesome CDN -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+<body>
+
+	<header>
+		<nav>
+	 		<h3 class="logo">Ajith kumar.dev</h3>
+	 		<ul>
+	 			<li><a href="#home">Home</a></li>
+	 			<li><a href="#about">About</a></li>
+	 			<li><a href="#projects">Projects</a></li>
+	 			<li><a href="#contact">Contact</a></li>
+	 			<li><i class="fa-solid fa-bars" id="hamburger" onclick="openNav()"></i></li>
+	 		</ul>
+ 		</nav>
+
+		<div class="mobile-nav" id="mobile-nav">
+			<span><i class="fa-solid fa-xmark" onclick="openNav()"></i></span>
+			<ul>
+				<li><a href="#home" onclick="openNav()">Home</a></li>
+				<li><a href="#about" onclick="openNav()">About</a></li>
+				<li><a href="#projects" onclick="openNav()">Projects</a></li>
+				<li><a href="#contact" onclick="openNav()">Contact</a></li>
+			</ul>
+		</div>
+	</header>
+
+	<main>
+		<section id="home" class="hero">
+			<div class="container">
+				<div class="content">
+					<div class="hero-main">
+						<div class="hero-text">
+							<h1>Front-End Developer</h1>
+							<img src="./images/waving.png" alt="waving_hand">
+							<p>Hi, I'm Ajith Kumar. A passionate Front-end Developer based in Tiruvallur, chennai. 📍</p>
+							<span><a target="_blank" href="https://www.linkedin.com/in/ajith-kumar-0a675222a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+									<i class="fa-brands fa-linkedin"></i>	
+								</a>
+								<a target="_blank" href="https://github.com/ajith02"><i class="fa-brands fa-github"></i></a>
+							</span>
+						</div>
+						<div class="hero-img"></div>
+					</div>
+					<div class="skills">
+						<p>Tech Stack</p>
+						<div class="logos">
+							<ul>
+								<li><img src="https://skillicons.dev/icons?i=html" alt="skill-icon"></li>
+								<li><img src="https://skillicons.dev/icons?i=css" alt="skill-icon"></li>
+								<li><img src="https://skillicons.dev/icons?i=js" alt="skill-icon"></li>
+								<li><img src="https://skillicons.dev/icons?i=scss" alt="skill-icon"></li>
+								<li><img src="https://skillicons.dev/icons?i=bootstrap" alt="skill-icon"></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="about" id="about">
+			<div class="container">
+				<div class="about-content">
+					<div class="img-side">
+						<img src="./images/working.png" alt="emoji" class="work-emoji">
+						<img src="./images/about-img.webp" alt="mee" class="img-side__main-img">
+						<span><img src="./images/text.svg" alt="text"></span>
+					</div>
+					<div class="text-side">
+						<h3>About me</h3>
+						<h4>A dedicated Front-end Developer <br> based in Tiruvallur, Chennai 📍</h4>
+						<p>As a Junior Front-End Developer, I possess an impressive arsenal of skills in HTML, CSS, JavaScript, Bootstrap, and SCSS. I excel in designing and maintaining responsive websites that offer a smooth user experience. My expertise lies in crafting dynamic, engaging interfaces through writing clean and optimized code and utilizing cutting-edge development tools and techniques. I am also a team player who thrives in collaborating with cross-functional teams to produce outstanding web applications.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="projects" class="project">
+			<div class="container">
+				<div class="project-content">
+					<p>portfolio</p>
+					<h3>Each project is a unique piece of development</h3>
+					<div class="projects-grid">
+						<div class="pro pro__1 undefined">
+							<div class="pro__img">
+								<a target="_blank" href="">
+									<img src="./images/car.webp" alt="website" style="transform: translateY(0%); transition: transform 10s ease-in-out 0s;" class="images">
+								</a>
+							</div>
+							<div class="pro__text">
+								<h3>Car Rental <span class="date-class">(October 2023)</span> 🚗</h3>
+								<p>A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars.</p>
+								<div class="stack">
+									<p>Javascript</p><p>SCSS</p>
+								</div>
+								<div class="links">
+									<a target="_blank" href="https://github.com/ajith02/car-rental">Code <i class="fa-brands fa-github"></i></a>
+									<a target="_blank" href="https://car-rental-avu88nt8q-ajith02.vercel.app/">Live Demo<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+								</div>
+							</div>
+						</div>
+						
+						<div class="pro pro__1 reversed-proj">
+							<div class="pro__img">
+								<a target="_blank" href="">
+									<img src="./images/Food.jpg" alt="website" style="transform: translateY(0%); transition: transform 10s ease-in-out 0s;" class="images">
+								</a>
+							</div>
+							<div class="pro__text">
+								<h3>Food Order Landing Page<span class="date-class">(October 2023)</span> </h3>
+								<p>"Craving your favorite dishes without leaving home? You're in the right place! Our food order website makes it easy to satisfy your cravings with a few clicks."</p>
+								<div class="stack">
+									<p>Javascript</p>
+									<p>CSS</p>
+								</div>
+								<div class="links">
+									<a target="_blank" href="https://github.com/ajith02/food-order-landing-page">Code <i class="fa-brands fa-github"></i></a>
+									<a target="_blank" href="https://food-order-page-eight.vercel.app/">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="pro pro__1 undefined">
+							<div class="pro__img">
+								<a target="_blank" href="">
+									<img src="./images/Marketing.jpg" alt="website" style="transform: translateY(0%); transition: transform 10s ease-in-out 0s;" class="images">
+								</a>
+							</div>
+							<div class="pro__text">
+								<h3>Digital Marketing Landing Page <span class="date-class">(October 2023)</span> </h3>
+								<p>"Ready to boost your online presence and achieve your business goals? Our digital marketing services are tailored to help you reach your audience and elevate your brand."</p>
+								<div class="stack">
+									<p>Javascript</p>
+									<p>CSS</p>
+								</div>
+								<div class="links">
+									<a target="_blank" href="https://github.com/ajith02/digital-marketing-landing-page">Code <i class="fa-brands fa-github"></i></a>
+									<a target="_blank" href="https://digital-marketing-page-ten.vercel.app/">Live Demo<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+								</div>
+							</div>
+						</div>
+
+						<div class="pro pro__1 reversed-proj">
+							<div class="pro__img">
+								<a target="_blank" href="">
+									<img src="./images/image-search.png" alt="website" style="transform: translateY(0%); transition: transform 10s ease-in-out 0s;" class="images">
+								</a>
+							</div>
+							<div class="pro__text">
+								<h3>Image Search App <span class="date-class">(October 2023)</span> </h3>
+								<p>Explore a world of visuals with our Image Search App. Find images on various topics, from travel to fashion, using our powerful search engine."</p>
+								<div class="stack">
+									<p>Javascript</p>
+									<p>CSS</p>
+								</div>
+								<div class="links">
+									<a target="_blank" href="https://github.com/ajith02/image-search-app">Code 
+										<i class="fa-brands fa-github"></i></a>
+										<a target="_blank" href="https://image-search-app-lyart.vercel.app/">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section> 
+
+			<section id="contact" class="contact">
+				<div class="container">
+					<div class="contact__content">
+						<div class="contact__title">
+							<p>contact</p>
+							<h3>Don't be shy! Hit me up! 👇</h3>
+						</div>
+						<div class="contact__icons">
+							<div class="contact__icon-box">
+								<span><i class="fa-solid fa-phone"></i></span>
+								<div class="contact__info">
+									<h3>Mobile</h3>
+									<p tel='+91638269912'>+91 63826 69912</p>
+								</div>
+							</div>
+							<div class="contact__icon-box">
+								<span><i class="fa-regular fa-envelope"></i></span>
+								<div class="contact__info">
+									<h3>Mail</h3>
+									<a href="mailto:ajith19041999@gmail.com">ajith19041999@gmail.com</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+	</main>
+
+	<footer>
+		<div class="container">
+			<div class="footerc">
+				<h3>Copyright © 2023. All rights are reserved</h3>
+				<div class="footerc__socials">
+					<a target="_blank" href="https://www.linkedin.com/in/ajith-kumar-0a675222a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+						<i class="fa-brands fa-linkedin"></i>	
+					</a>
+					<a target="_blank" href="https://github.com/ajith02">
+						<i class="fa-brands fa-github"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+	</footer> 
+
+	<script src="./script.js"></script>
+</body>
+</html>
